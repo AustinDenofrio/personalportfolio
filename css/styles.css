@@ -1,3 +1,8 @@
 body {
     background: linear-gradient(to left,rgba(147,147,147,0.9990371148459384) 2%, rgb(81, 145, 22) 20%, rgba(133,102,6,1) 99%)
 }
+
+#persImg {
+    max-width: 250px;
+    height: auto;
+}
