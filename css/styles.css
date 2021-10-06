@@ -1,8 +1,26 @@
 body {
-    background: linear-gradient(to left,rgba(147,147,147,0.9990371148459384) 2%, rgb(81, 145, 22) 20%, rgba(133,102,6,1) 99%)
+    background: linear-gradient(to left,rgba(147,147,147,0.9990371148459384) 2%, rgb(81, 145, 22) 23%, rgba(133,102,6,1) 99%)
 }
 
 #persImg {
     max-width: 250px;
     height: auto;
+    border-style: solid;
+    border-width: 1px 4px 5px 2px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px rgb(60, 61, 39);
+}
+
+#flex-parent {
+   border: solid 7px green;
+   display: flex;
+   padding: 10px;
+   height: 900px;
+}
+
+.flex-item {
+    border: dotted 3px rgb(134, 11, 11);
+    margin: 5px;
+    font-size: 25px;
+    padding: 20px;
 }
