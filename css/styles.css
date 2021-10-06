@@ -11,16 +11,3 @@ body {
     box-shadow: 10px 10px 5px rgb(60, 61, 39);
 }
 
-#flex-parent {
-   border: solid 7px green;
-   display: flex;
-   padding: 10px;
-   height: 900px;
-}
-
-.flex-item {
-    border: dotted 3px rgb(134, 11, 11);
-    margin: 5px;
-    font-size: 25px;
-    padding: 20px;
-}
