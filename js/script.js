@@ -51,7 +51,7 @@ button.addEventListener('click', function() {
 
 
      /*showing and hiding content*/
-
+/*
 const button = document.getElementById('see-review');
 
 button.addEventListener('click', function() {
@@ -60,9 +60,26 @@ button.addEventListener('click', function() {
 
     if (test.classList.contains('display-none')) {
     test.classList.remove('display-none');
+     
     }
     else {
         test.classList.add('display-none')
     }
-
 } )
+*/
+const button = document.getElementById('see-review');
+
+button.addEventListener('click', function() {
+    const showingDiv = document.getElementById('displayNav');
+
+    if (showingDiv.classList.contains('display-none')){
+        showingDiv.classList.remove('display-none');
+        button.style.color = 'black';
+    }
+    else {
+        showingDiv.classList.add('display-none');
+        button.style.color = 'rgba(255, 255, 255, 0.589)'
+    }
+})
+
+
