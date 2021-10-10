@@ -40,3 +40,29 @@ let nameOfVar = "itsValue"
 
 
 
+    /*click event that can be used to activate something when clicked*/ 
+    /*
+const button = document.getElementById('see-review');
+
+button.addEventListener('click', function() {
+    console.log('click');
+} )
+*/
+
+
+     /*showing and hiding content*/
+
+const button = document.getElementById('see-review');
+
+button.addEventListener('click', function() {
+
+    const test = document.getElementById('test');
+
+    if (test.classList.contains('display-none')) {
+    test.classList.remove('display-none');
+    }
+    else {
+        test.classList.add('display-none')
+    }
+
+} )
