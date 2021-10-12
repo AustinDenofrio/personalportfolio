@@ -1,5 +1,4 @@
-
-
+'use strict';
 /* variables */
 /* the var variable notation acts as a scriptwide accessible variable.
  its rarely used. let is the standard practice use for variables*/
@@ -81,5 +80,3 @@ button.addEventListener('click', function() {
         button.style.color = 'rgba(255, 255, 255, 0.589)'
     }
 })
-
-
