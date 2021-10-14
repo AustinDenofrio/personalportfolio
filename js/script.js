@@ -66,7 +66,7 @@ button.addEventListener('click', function() {
     }
 } )
 */
-const button = document.getElementById('see-review');
+const button = document.getElementById('hamburgerBtn');
 
 button.addEventListener('click', function() {
     const showingDiv = document.getElementById('displayNav');
