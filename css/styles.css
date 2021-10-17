@@ -6,6 +6,10 @@ body {
     margin: 5px 0 0 0;
 }
 
+main{
+    margin: 0 15px 0 15px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -30,6 +34,8 @@ a{
     border-radius: .5%;
     margin: 0 10px 0 10px;
 }
+
+
 
 button {
     background-color: rgba(18, 33, 43, 0.39);
@@ -90,16 +96,36 @@ header > h1 {
     border-width: 1px 4px 5px 2px;
     border-radius: 48%;
 }
+.pageContent > p:nth-child(1), #toTop > p{
+    border-bottom: 1px solid rgb(59, 59, 59);
+    padding-bottom: 50px;
+}
 
-div > p:nth-child(1) {
-    border-bottom: 1px solid grey;
+.pageContent > p:nth-child(1) {
+    margin-bottom: 0;
+}
+
+/*div > p:nth-child(1) {
+    border-bottom: 1px solid rgb(59, 59, 59);
     padding-bottom: 40px;
 }
 
 div > p:nth-child(2) {
- /*   border-bottom: 1px solid grey;*/
     padding: 60px 0;
 }
+*/
+.pageContent {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.pageText {
+    margin: 60px 0 60px 0;
+    text-align: center;
+}
+
 
     /*  Footer  */
 
@@ -111,7 +137,7 @@ footer > nav > {
 
 footer > nav > div > img {
     margin-top: 50px;
-    width: 70%;
+    width: 50%;
     border-radius: 50%;
 }
 
@@ -128,10 +154,23 @@ footer > nav > div > img {
     margin: 30px 0;
     border-bottom: 1px solid grey;
     font-weight: 900;
+    text-align: center;
+    transition: transform .9s;
+}
+
+.footerItem:hover{
+    transform: rotate(6.5deg);
+    transition: transform 0.3s;
+}
+
+
+#toTop {
+    background-color: rgba(18, 33, 43, 0.39);
+    padding: 30px 0 20px 0;
 }
 
 .topOfPage {
-    margin-top: 50px;
+    color: rgb(160, 158, 158);
     font-size: .8rem;
     text-decoration: underline;
 }
