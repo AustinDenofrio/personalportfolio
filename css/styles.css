@@ -139,6 +139,7 @@ footer > nav > div > img {
     margin-top: 50px;
     width: 50%;
     border-radius: 50%;
+    filter: grayscale(100%);
 }
 
 .footerSec {
