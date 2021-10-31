@@ -1,4 +1,4 @@
-
+/*     Blanket Styles    */
 body {
     background: linear-gradient(to bottom, rgb(102, 107, 57) 1%, rgba(133, 101, 6, 0.603) 99%);
     background-repeat: no-repeat; 
@@ -21,6 +21,8 @@ a:hover {
     text-decoration-color: rgb(88, 58, 1);
 }
 
+
+/*Navigation Hamburger Ma*/
 .display-none {
     display: none;
 }
@@ -202,4 +204,27 @@ main > h1, main > h2 {
         color: rgb(160, 158, 158);
         font-size: .8rem;
         text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 800px) {
+
+   
+
+    }
+    
+    
+    
+    
+    @media screen and (min-width: 1639px) {
+        body {
+            color:hotpink;
+        }
+        
     }
