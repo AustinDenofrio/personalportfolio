@@ -101,8 +101,8 @@ header > h1 {
     padding-bottom: 50px;
 }
 
-main > .pageContent > p:nth-child(2) {
-    margin-top: 0px;
+.pageContent > p:nth-child(1) {
+    margin-bottom: 0;
 }
 
 .pageContent {
@@ -111,9 +111,6 @@ main > .pageContent > p:nth-child(2) {
 
 }
 
-h3 {
-    text-align: center;
-}
 
 .pageText {
     margin: 60px 0 60px 0;
@@ -133,7 +130,7 @@ footer > nav > div > img {
     margin-top: 50px;
     width: 50%;
     border-radius: 50%;
-    filter: grayscale(100%);
+    filter: grayscale(85%);
 }
 
 .footerSec {
@@ -150,11 +147,11 @@ footer > nav > div > img {
     border-bottom: 1px solid grey;
     font-weight: 900;
     text-align: center;
-    transition: transform .9s;
+    transition: transform 1s;
 }
 
 .footerItem:hover{
-    transform: rotate(6.5deg);
+    transform: rotate(360deg);
     transition: transform 0.3s;
 }
 
@@ -169,3 +166,4 @@ footer > nav > div > img {
     font-size: .8rem;
     text-decoration: underline;
 }
+
