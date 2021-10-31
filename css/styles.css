@@ -101,25 +101,19 @@ header > h1 {
     padding-bottom: 50px;
 }
 
-.pageContent > p:nth-child(1) {
-    margin-bottom: 0;
+main > .pageContent > p:nth-child(2) {
+    margin-top: 0px;
 }
 
-/*div > p:nth-child(1) {
-    border-bottom: 1px solid rgb(59, 59, 59);
-    padding-bottom: 40px;
-}
-
-div > p:nth-child(2) {
-    padding: 60px 0;
-}
-*/
 .pageContent {
     display: flex;
     flex-direction: column;
 
 }
 
+h3 {
+    text-align: center;
+}
 
 .pageText {
     margin: 60px 0 60px 0;
