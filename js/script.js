@@ -80,3 +80,10 @@ button.addEventListener('click', function() {
         button.style.color = 'rgba(255, 255, 255, 0.589)'
     }
 })
+
+/*
+let happyVar = name => 'hey there ' + name;
+
+let message = happyVar('gotee');
+
+console.log(message);*/
