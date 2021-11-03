@@ -224,24 +224,26 @@ main > h1, main > h2 {
     
 
     #displayNav {
-        width: fit-content;
-        flex-grow: 25;
+        
     }
 
     #navContainer {
         flex-direction: row;
-    }
-
-    #mainNav {
-        flex-direction: row;
-    }
-    .navItem {
-        flex-grow: 2;
+        justify-content: space-evenly;
     }
 
     button {
-        width: fit-content;
-        flex-grow: 1;
+        width: 4rem;
+    }
+
+
+    #mainNav {
+        flex-direction: row;
+        justify-content: space-evenly
+        ;
+    }
+    .navItem {
+        border: 0;
     }
 
     }
@@ -250,8 +252,25 @@ main > h1, main > h2 {
     
     
     @media screen and (min-width: 1639px) {
-        body {
-            color:hotpink;
+
+        #navContainer{
+            justify-content: space-between;
+        }
+
+        button {
+            
+        }
+
+        #displayNav{
+            width: 20%;
+        }
+
+        #mainNav {
+            justify-content: flex-end;
+        }
+
+        .navItem {
+            width: 12rem;
         }
         
     }
