@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 This is my personal portfolio page where I display working and ever growing knowledge of coding in a purposeful way; To display my professional expertise.
 My page features several examples of different coding languages including CSS3, HTML5, and JavaScript. The page mainly 
 is arranged using flexbox style, with a hint of basic width properties to work seamlessly with flexbox for a resposive experience.
@@ -16,4 +14,3 @@ Features on the page:
 •Web Retrieved Font Styles
 
 
->>>>>>> 97e143f8f00db98c696c4961678bdb89865a5181
